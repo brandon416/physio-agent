@@ -1,0 +1,6 @@
+# Mia overlay. MacBook. Placeholder only.
+learner_id = "mia"
+learner_name = "Mia"
+runtime = "Hermes Agent"
+environment_id = "macbook"
+status = "NOT_RUN"

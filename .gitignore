@@ -1,0 +1,24 @@
+# Secrets and machine-local env
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+auth.json
+
+# Recordings and verbose evidence
+recordings/
+transcripts/
+screenshots/
+*.session
+*.token
+logs/
+*.log
+
+# Local tool caches
+.codex/
+.hermes/
+__pycache__/
+.venv/
+venv/
+.DS_Store
