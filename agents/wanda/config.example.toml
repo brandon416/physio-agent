@@ -1,0 +1,6 @@
+# Wanda overlay. Mac mini. Placeholder only.
+learner_id = "wanda"
+learner_name = "Wanda"
+runtime = "Hermes Agent"
+environment_id = "mac-mini"
+status = "NOT_RUN"

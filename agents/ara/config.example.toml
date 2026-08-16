@@ -1,0 +1,8 @@
+# Ara overlay. Grok computer. No secrets.
+learner_id = "ara"
+learner_name = "Ara"
+runtime = "Hermes Agent"
+environment_id = "grok-computer"
+hermes_profile = "ara"
+model = "grok-4.6"
+status = "ACTIVE"

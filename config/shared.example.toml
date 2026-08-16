@@ -1,0 +1,22 @@
+# Shared example config. No secrets. No absolute home paths.
+schema_version = "1.0"
+orchestrator_id = "captain"
+trainer_id = "truecoach"
+canon_owner_id = "source-keeper"
+hindsight_bank_id = "source"
+report_group = "True-Coach Training"
+attempt_cap = 4
+remediation_rounds_max = 3
+consecutive_passes_required = 2
+
+[truecoach]
+read_first = true
+live_writes_require_confirm = true
+mcp_for = ["read", "preview", "readback"]
+cli_for = ["dry-run", "authorized-write"]
+browser_forbidden = true
+
+[readiness]
+provisional = "guided or one unguided pass"
+verified_mvp = "two consecutive unguided passes"
+validated_99 = "later measured evaluation"
